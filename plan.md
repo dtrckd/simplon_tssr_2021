@@ -21,16 +21,16 @@ Introduction à Python et les fondementaux du langage.
 - Boucle  (for, while) 
     - itérations
     - Structure de controle (continue, break)
-- functions
+- Functions
     - builtin fonction: print, sum, len, range, sum, map and open
     - user defined
-- exception (try/catch)
+- Exception (try/catch)
 - Exos...
 
 ### jour 2
 
 - Classe et Objet (méthode, attribut et initialisation)
-- module et bibliothèque standard: os, os.path, sys, time, math, csv, json, http, re (numpy, matpltolib)
+- Module et bibliothèque standard: os, os.path, sys, time, math, csv, json, http, re (numpy, matpltolib)
 - Regexp
     - premiere approche avec `sed` et `grep`
     - utilisation de `re`
@@ -41,25 +41,13 @@ Introduction à Python et les fondementaux du langage.
 
 ### jour 3
 
-- introduction a docopt
+- Introduction a docopt
 - exo-brief 1 (ligne de commande, parsing, and data viz)
 
 ### Jour 4 & 5
 
 - retour sur notion
-- exo brief 2
-
-
-
-
-
-
-
-
-
-
-
-
+- exo brief 2 (networking or security)
 
 
 
@@ -69,4 +57,4 @@ Introduction à Python et les fondementaux du langage.
 * http://fsincere.free.fr/isn/python/cours_python_ch1.php
 * https://informatique-python.readthedocs.io/fr/latest/Cours/cours.html
 * multiple lien et ressources (parfois redondant) : https://python.developpez.com/tutoriels/cours-python-uni-paris7/#LII-A
-* rtfm: https://docs.python.org/3/
+* documentation: https://docs.python.org/3/

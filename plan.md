@@ -43,7 +43,6 @@ Introduction à Python et les fondamentaux du langage.
         * un numéro de téléphone international
         * une adresse IPv4
         * une URL
-    - Exos: http and file writing (see module `re`): dowload a file, and replace all URL with www.perdu.com
 
 ### jour 3
 
@@ -56,6 +55,9 @@ Brief 2:
 - parser de log.
     - using re to extract IP, and Keywords.
     - visualisation avec matplotlib ou plotly.
+
+EXO bonus (working with the module `http`)
+    -  dowload an html file (for examepl wikipedia.org, and replace all URL with www.perdu.com.
 
 ### Jour 4 & 5
 

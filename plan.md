@@ -63,4 +63,5 @@ Introduction à Python et les fondementaux du langage.
 * http://fsincere.free.fr/isn/python/cours_python_ch1.php
 * https://informatique-python.readthedocs.io/fr/latest/Cours/cours.html
 * multiple lien et ressources (parfois redondant) : https://python.developpez.com/tutoriels/cours-python-uni-paris7/#LII-A
+* Learn by example: https://www.learnbyexample.org/python/
 * documentation: https://docs.python.org/3/

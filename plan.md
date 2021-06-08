@@ -34,7 +34,6 @@ Introduction à Python et les fondamentaux du langage.
     * Créer une fonction qui prend deux arguments, un chemin de fichier (nouveau) et une string, et qui écrit un fichier dans le chemin donnée et contenant la string.
     * Créer une fonction qui prend en argument le chemin d'un fichier existant, et qui insère entre chaque mot, le mot `RTFM`.
     * créer une fonction qui prend un chemin en entrée (string) et qui retourne une list de dictionnaire représentant les fichier.  Le dictionnaire contiendra comme clé, le nom du fichier, sa taille, et is c'est un executable ou non.(see `os.walk`)
-- Classe et Objet (méthode, attribut et initialisation)
 - Regexp
     - première approche avec `sed` et `grep` (play with files greping, and seding.)
     - expression régulière pour matcher: 
@@ -65,6 +64,7 @@ EXO bonus (working with the module `http`)
 - exo brief 2 (crawler, scraper sniffer).
 - take a excel/csv and et user entrye (login, password plus groups.)
 
+- Classe et Objet (méthode, attribut et initialisation)
 
 # Resources
 

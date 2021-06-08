@@ -45,7 +45,7 @@ Introduction à Python et les fondamentaux du langage.
         * une URL
     - Exos: http and file writing (see module `re`): dowload a file, and replace all URL with www.perdu.com
 
-### jour 
+### jour 3
 
 Brief 1:
 - Revenir sur le crawler de fichier

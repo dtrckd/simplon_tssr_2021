@@ -3,9 +3,9 @@
 
 ### jour 1
 
-Introduction à Python et les fondementaux du langage.
+Introduction à Python et les fondamentaux du langage.
 
-- Presentation de l'environement
+- Présentation de l'environnement
 - Installation (interpréteur python, pip, éditeur?)
 - Style et convention (instruction, indentation & more)
 - Variables
@@ -14,41 +14,48 @@ Introduction à Python et les fondementaux du langage.
 - Types 
     - builtin (int, float, boolean, string, list, set, tuple, dict)
     - mutabilité et indexation
-- Expression conditionelle
+- Expression conditionnelle
     - branchement (if, elif, else)
     - Opérateur de comparaison (<>, <>=, ==, !=, in, not)
 - Exos...
 - Boucle  (for, while) 
     - itérations
-    - Structure de controle (continue, break)
+    - Structure de contrôle (continue, break)
 - Exception (try/catch)
 - Exos...
 
 ### jour 2
 
-- Functions
-    - builtin fonction: print, sum, len, range, sum, map and open
+- Fonctions
+    - builtin functions: print, sum, len, range, sum, map and open
     - user defined
-- Exo: **Pour chacune des fonctions ci dessus, elle doivent pouvoir être executé en appellant le script qui les contient, et les argument passable en ligne de commande.**
+- Exo: **Pour chacune des fonctions ci-dessous, elle doivent pouvoir être exécuté en appelant le script qui les contient, et les arguments passable en ligne de commande.**
     * Créer une fonction qui prend en argument le chemin d'un fichier et affiche son contenue.
-    * Creéer une fonction qui prend deux arguments, un chemin de fichier (nouveau) et une string, et qui ecrit un fichier dans le chemin donnée et contenant la string.
-    * Creéer une fonction qui prend en argument le chemin d'un fichier existant, et qui insére entre chaque mot, le mot `RTFM`.
-    * créer une fonction qui prend un chemin en entrée (string) et qui retourne un, dictionnaire dont les clés sont tout les sous-chemins des **fichiers**, et la valeurs sont un autre dictionnaire contenant, la taille du fichier et son nombre de ligne.(see `os.walk`)
+    * Créer une fonction qui prend deux arguments, un chemin de fichier (nouveau) et une string, et qui écrit un fichier dans le chemin donnée et contenant la string.
+    * Créer une fonction qui prend en argument le chemin d'un fichier existant, et qui insère entre chaque mot, le mot `RTFM`.
+    * créer une fonction qui prend un chemin en entrée (string) et qui retourne une list de dictionnaire représentant les fichier.  Le dictionnaire contiendra comme clé, le nom du fichier, sa taille, et is c'est un executable ou non.(see `os.walk`)
 - Classe et Objet (méthode, attribut et initialisation)
 - Regexp
-    - premiere approche avec `sed` et `grep` (play with files greping, and sedding.)
+    - première approche avec `sed` et `grep` (play with files greping, and seding.)
     - expression régulière pour matcher: 
         * une nom en majuscule.
-        * une addresse mail.
+        * une adresse mail.
         * un numéro de téléphone international
-        * une addresse IPv4
+        * une adresse IPv4
         * une URL
     - Exos: http and file writing (see module `re`): dowload a file, and replace all URL with www.perdu.com
 
-### jour 3
+### jour 
 
-- Introduction a docopt
-- exo-brief 1 (ligne de commande, parsing, and data viz)
+Brief 1:
+- Revenir sur le crawler de fichier
+    - lire le code suivant : https://www.tutorialspoint.com/How-to-save-a-Python-Dictionary-to-CSV-file
+    - contruire le csv à partir du dict.
+
+Brief 2:
+- parser de log.
+    - using re to extract IP, and Keywords.
+    - visualisation avec matplotlib ou plotly.
 
 ### Jour 4 & 5
 

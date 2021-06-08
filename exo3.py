@@ -16,7 +16,7 @@ def show_file(path):
 try:
     # Get the command line argument
     path = sys.argv[1]
-except as e:
+except Exception as e:
     print("Path argument is needed")
     exit()
 

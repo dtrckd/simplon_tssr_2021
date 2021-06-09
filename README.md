@@ -44,33 +44,41 @@ Introduction à Python et les fondamentaux du langage.
         * une adresse IPv4
         * une URL
 
+modules: ` sys os`
+
 ### Jour 3
 
-**Brief 1**
+**Brief 1** - Scanner de fichier.
 - Réaliser un scanner de dossier avec génération de résultats au format csv.
     - vous devez extraire pour chaque fichier, son nom, sa taille en Ko, si c'est un exécutable et son extension.
     - Exemple d'utilisation du `os.walk` pour scanner un répertoire :  https://docs.microsoft.com/en-us/windows/python/scripting
     - Lire le code suivant pour l'enregistrement du fichier csv à partir de dict python : https://www.tutorialspoint.com/How-to-save-a-Python-Dictionary-to-CSV-file
     - Construire le csv à partir du dict.
 
+modules: `csv os.walk os.path shutil`
+
 
 ### Jour 4
 
-**Brief 2**
-- Parser de log (log fourni. Provenance:  https://zenodo.org/record/3227177)
+**Brief 2** - Parser de log.
+A partir du log donner, develloper un scrit permettant de sortir les statistiques suivante https://zenodo.org/record/3227177))
     - using `re` to extract IP, and Keywords.
     - visualisation d'histogramme avec matplotlib ou plotly.
 
-**Brief 3**
-    - Télécharger une page web avec le module `urlopen` (par exemple `https://wikipedia.org`
-    - Modifier le contenue de la page et enregistrer la page en html.
-        - Remplacer toutes les URL par la suivante `http://www.perdu.com` à l'aide du module `re`.
+modules: `re`
 
-**Brief 4**
-    Découverte de Fabric pour automatiser la création d'utilisateur sur des machine distance.
-    Les données d'entré sont deux fichiers:
-    * un tableur des utilisateur à créer (username and name)
-    * un tableur des liste de machines (adresse ip)
+**Brief 3** - Page web parser and (little) scraping).
+- Télécharger une page web avec le module `urlopen` (par exemple `https://wikipedia.org`
+- Modifier le contenue de la page et enregistrer la page en html.
+    - Remplacer toutes les URL par la suivante `http://www.perdu.com` à l'aide du module `re`.
+
+modules: `urlparer re`
+
+**Brief 4** - Automatisation de tache sysadmin.
+Découverte de Fabric pour automatiser la création d'utilisateur sur des machine distance.
+Les données d'entré sont deux fichiers:
+* un tableur des utilisateur à créer (username and name)
+* un tableur des liste de machines (adresse ip)
 
 ### Jour  5
 

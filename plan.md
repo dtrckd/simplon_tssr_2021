@@ -71,6 +71,7 @@ EXO bonus (working with the module `http`)
 * https://python.developpez.com/tutoriels/cours-python-uni-paris7/#LII-A
 * http://fsincere.free.fr/isn/python/cours_python_ch1.php
 * https://informatique-python.readthedocs.io/fr/latest/Cours/cours.html
+* yet another one (en francais): https://www.pierre-giraud.com/python-apprendre-programmer-cours
 * multiple lien et ressources (parfois redondant) : https://python.developpez.com/tutoriels/cours-python-uni-paris7/#LII-A
 * Learn by example: https://www.learnbyexample.org/python/
 * documentation: https://docs.python.org/3/

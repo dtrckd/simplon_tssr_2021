@@ -31,12 +31,13 @@ def scanner(path):
             data = {
                 'Name': name,
                 'Path': file_path,
-                'Size': os.path.getsize(file_path),
+                'Size': os.path.getsize(file_path) / 1024,
                 'Executable': shutil.which(file_path),
                 'Extension': name.split(".")[-1]
             }
             data_files.append(data)
 
+    data_files = sorted(data_file, key=lambda x:x["Size"], reverse=True)
     return data_files, header
 
 

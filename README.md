@@ -61,9 +61,10 @@ modules: `csv os.walk os.path shutil`
 ### Jour 4
 
 **Brief 2** - Parser de log.
-A partir du log donner, develloper un scrit permettant de sortir les statistiques suivante https://zenodo.org/record/3227177))
+A partir d'un fichier log données, develloper un script permettant de sortir les statistiques suivante https://zenodo.org/record/3227177))
+    le nombre de d'adresse IP différente, les 3 addresses IP qui aparraissent le plus souvent et le nombre de fois qu'elle aparaissent.
     - using `re` to extract IP, and Keywords.
-    - visualisation d'histogramme avec matplotlib ou plotly.
+    - (bonus) visualisation d'histogramme avec matplotlib ou plotly.
 
 modules: `re`
 

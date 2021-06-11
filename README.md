@@ -62,30 +62,34 @@ modules: `csv os.walk os.path shutil`
 
 **Brief 2** - Parser de log.
 A partir d'un fichier log données, develloper un script permettant de sortir les statistiques suivante https://zenodo.org/record/3227177))
-    le nombre de d'adresse IP différente, les 3 addresses IP qui aparraissent le plus souvent et le nombre de fois qu'elle aparaissent.
-    - using `re` to extract IP, and Keywords.
-    - (bonus) visualisation d'histogramme avec matplotlib ou plotly.
+le nombre de d'adresse IP différente, les 3 addresses IP qui aparraissent le plus souvent et le nombre de fois qu'elle aparaissent.
+- using `re` to extract IP, and Keywords.
+- (bonus) visualisation d'histogramme avec matplotlib ou plotly.
 
 modules: `re`
 
+
+modules: `fabric`
+
+### Jour  5
+
+- Retour sur notions et script.
+
 **Brief 3** - Page web parser and (little) scraping).
-- Télécharger une page web avec le module `urlopen` (par exemple `https://wikipedia.org`
+- Télécharger une page web avec le module `requests` (par exemple `https://wikipedia.org`
 - Modifier le contenue de la page et enregistrer la page en html.
     - Remplacer toutes les URL par la suivante `http://www.perdu.com` à l'aide du module `re`.
 
-modules: `urlparer re`
+modules: `requests re`
+
+**Brief intermediaire**
+- Travailler avec une API (virustotal.com) et partage de script.
 
 **Brief 4** - Automatisation de tache sysadmin.
 Découverte de Fabric pour automatiser la création d'utilisateur sur des machine distance.
 Les données d'entré sont deux fichiers:
 * un tableur des utilisateur à créer (username and name)
 * un tableur des liste de machines (adresse ip)
-
-### Jour  5
-
-- Retour sur notions et script.
-- Working with an API (virustotal.com).
-- Découverte et test avec Ansible.
 
 
 Notes sur:

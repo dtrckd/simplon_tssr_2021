@@ -80,6 +80,9 @@ modules: `fabric`
 
 modules: `requests re`
 
+ressources: 
+* https://linuxhint.com/python_string_replacement/
+
 **Brief intermediaire**  
 - Travailler avec une API (virustotal.com) et partage de script.
 

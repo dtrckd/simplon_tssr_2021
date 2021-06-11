@@ -73,8 +73,6 @@ modules: `fabric`
 
 ### Jour  5
 
-- Retour sur notions et script.
-
 **Brief 3** - Page web parser and (little) scraping).  
 - Télécharger une page web avec le module `requests` (par exemple `https://wikipedia.org`
 - Modifier le contenue de la page et enregistrer la page en html.
@@ -94,6 +92,7 @@ Les données d'entré sont deux fichiers:
 
 Notes sur:
 - Classe et Objet (méthode, attribut et initialisation)
+- Retour sur notions et script.
 - Autre modules externes puissants
 
 # Resources
